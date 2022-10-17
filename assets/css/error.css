@@ -1,0 +1,54 @@
+.main-part {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.error-404 {
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.banner-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    visibility: visible;
+    animation-duration: 1000ms;
+    animation-delay: 300ms;
+    animation-name: fadeInDown;
+    background-image: url(../img/banner1.jpg);
+}
+.error-404-inner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 36px;
+    padding: 0 15px;
+    margin-top: 5%;
+    font-family: 'QuicksandBook-Regular';
+}
+.error-404-title {
+    display: inline-block;
+    width: 100%;
+    color: #e4b95b;
+    font-size: 200px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.error-404-inner h2 {
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+.error-404-inner a {
+    color: #e4b95b;
+    font-family: 'QuicksandBook-Regular';
+    text-decoration: none;
+    
+}

@@ -1,0 +1,296 @@
+/* Buttons */
+
+.btn-1 {
+  text-align: center;
+  color: var(--secondary-color);
+  background: transparent;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: 1px solid var(--white-color);
+  width: 250px;
+  text-transform: uppercase;
+}
+
+.btn-1 a {
+  color: var(--white-color);
+}
+
+.btn-1:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+  background: var(--white-color);
+  cursor: pointer;
+  border: 1px solid var(--white-color);
+}
+
+.btn-1 a i {
+  margin-left: 3px;
+}
+
+.btn-1:hover a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.btn-2 {
+  text-align: center;
+  color: var(--white-color);
+  background: var(--secondary-color);
+  padding: 15px 20px;
+  font-weight: bold;
+  border: 1px solid var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.btn-2:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background: var(--white-color);
+  cursor: pointer;
+}
+
+.new-btn {
+  color: var(--primary-color);
+  background-color: #fff;
+  top: 0;
+  padding: 6px 15px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid var (--primary-color);
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-right: 0;
+  border-radius: 40px;
+  border: 1px solid var(--primary-color);
+}
+
+.new-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-3 {
+  text-align: center;
+  color: var(--white-color);
+  background: var(--primary-color);
+  padding: 8px 15px;
+  font-weight: bold;
+  border: 1px solid var(--primary-color);
+
+  text-transform: uppercase;
+}
+
+.btn-3 a {
+  color: var(--white-color);
+}
+
+.btn-3 a i {
+  margin-left: 8px;
+}
+
+.btn-3:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+  background: var(--white-color);
+  cursor: pointer;
+  transition: .3sec;
+}
+
+.btn-3:hover a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.btn-4 {
+  text-align: center;
+  color: var(--secondary-color);
+  background: transparent;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: 1px solid var(--primary-color);
+  width: 250px;
+  text-transform: uppercase;
+}
+
+.btn-4 a {
+  color: var(--primary-color);
+}
+
+.btn-4:hover {
+  text-decoration: none;
+  color: var(--white-color);
+  background: var(--primary-color);
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+}
+
+.btn-4:hover a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn.btn-call {
+  background: #ffffff;
+  padding: 18px 40px;
+  border-radius: 50px;
+  color: #333640;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn.btn-call:hover {
+  box-shadow: 0px 0px 0px 5px rgb(255 255 255 / 20%);
+}
+
+.default-btn {
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #fe5631;
+  transition: 0.6s;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: -6px;
+  letter-spacing: 1px;
+}
+
+.default-btn:hover {
+  color: #ffffff;
+}
+
+.default-btn span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  background-color: #1dc295;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.default-btn:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+
+
+
+/* .button1 {
+  display: block;
+  width: 200px;
+  text-align: center;
+  transition: 0.5s all ease-in-out;
+  padding: 15px 30px;
+  margin: 20px auto;
+  color: #92c92a;
+  border: 3px solid #92c92a;
+  background: none;
+  border-radius: 5px;
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 1em;
+}
+
+.button1:hover {
+  color: white !important;
+}
+
+.button1::after {
+  position: absolute;
+  content: "";
+  background-color: #92c92a;
+  transition: 0.5s all ease-in-out;
+  z-index: -1;
+}
+<a class="button1 left-to-right" href="http://lotuashvili.me/" target="_blank">Left to right</a> */
+
+.button1.left-to-right::after {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+}
+
+.button1.left-to-right:hover::after {
+  width: 100%;
+
+}
+
+.btn-5 {
+  text-align: center;
+  
+  background: transparent;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: 1px solid var(--secondary-color);
+  width: 250px;
+  text-transform: uppercase;
+}
+
+.btn-5 a {
+  color: var(--secondary-color) !important;
+}
+
+.btn-5:hover {
+  text-decoration: none;
+  background: var(--secondary-color);
+  cursor: pointer;
+  border: 1px solid var(--white-color);
+}
+
+
+
+.btn-5:hover a {
+  color: var(--white-color) !important;
+  text-decoration: none;
+}
+
+
+/* breadcrumb */
+
+.breadcrumb-area {
+    padding: 21px 0 22px;
+}
+.breadcrumb-content li {
+    color: var(--primary-color);
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 28px;
+    position: relative;
+    font-weight: 500;
+}
+.breadcrumb-content li a {
+    color: #242424;
+}
+.breadcrumb-content li a:hover {
+    color: var(--primary-color);
+}
+.breadcrumb-content li::before {
+    background-color: #aaaaaa;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -22px;
+    top: 14px;
+    transform: rotate(-67deg);
+    transition: all 0.4s ease 0s;
+    width: 12px;
+}
+.breadcrumb-content li:last-child::before {
+    display: none;
+}

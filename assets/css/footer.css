@@ -1,0 +1,279 @@
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: var(--white-color);
+  background: var(--secondary-color);
+  padding: 10px;
+  /* border-radius: 50%; */
+}
+
+#myBtn:hover {
+  background: var(--black-color);
+  cursor: pointer;
+}
+
+.main-navigation {
+  width: 100%;
+}
+
+/*----*****---- << Footer >> ----*****----*/
+
+#footer{
+  border-top: 1px solid #686363;
+}
+#footer,
+.footer-copyright,
+div.footer-widgets .widget {
+  color: #333333;
+}
+
+.footer-widgets a:hover,
+#footer a:hover {
+  color: #2fa5fb;
+}
+
+.bottom-top-section {
+  margin: 40px 0;
+  
+}
+
+.icon {
+  font-size: 16px;
+  padding: 15px;
+  color: #fff;
+  fill: #fff;
+  display: inline-block;
+  line-height: 1;
+  transition: all .3s;
+  text-align: center;
+}
+
+.widget-icon-box.view-stacked .icon {
+  background-color: #1e306e;
+}
+
+.widget-icon-box.position-left .icon-box-wrapper {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.position-left .icon-box-icon {
+  margin-right: 15px;
+}
+
+.shape-circle .icon {
+  border-radius: 50%;
+}
+
+.widget-icon-box.view-stacked:hover .icon {
+  background-color: #d2edf8;
+}
+
+.icon-box-icon a i {
+  color: #fff;
+}
+
+.widget-icon-box.view-stacked:hover .icon a i {
+  color: #1e306e;
+}
+
+.widget-icon-box.view-stacked:hover .icon {
+  color: #1e306e;
+}
+
+.icon-box-content .icon-box-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.icon-box-content .icon-box-title a {
+  color: #1e306e;
+}
+
+.bottom-section {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('../img/footer-bg.png');
+  background-color: #1e306e;
+  color: #fff;
+}
+/*  
+.column-wrap {
+  position: relative;
+  display: flex;
+}
+
+.heading-title {
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.heading-title span {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.icon-list-text {
+  padding-left: 10px;
+  align-self: center;
+  color: #fff;
+}
+
+.icon-list-item a {
+  line-height: 35px;
+}
+
+.icon-list-icon {
+
+  flex-shrink: 0;
+}
+
+.icon-list-icon i {
+  font-size: 5px;
+  color: #2fa5fb;
+  top: -3px;
+  position: relative;
+  width: 1.25em;
+}
+
+/* .widget:not(:last-child) {
+  margin-bottom: 20px;
+} */
+
+.bottom-copyright-section {
+  padding: 15px 0px 15px 0px;
+  background-color: #d2edf8;
+
+}
+.bottom-copyright-section .left-sid a{
+  color: #000;
+  font-weight: bold;
+}
+.bottom-copyright-section .widget-wraps {
+  align-content: center;
+  align-items: center;
+}
+
+.copyright-link ul {
+  display: flex;
+}
+
+.copyright-link li {
+  padding: 0 8px;
+  border-right: 1px solid #000;
+}
+
+.copyright-link li:last-child {
+  border-right: 0;
+}
+
+.copyright-link li a {
+  color: #000;
+}
+
+
+
+.footer-basic {
+  padding:40px 0 15px;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+  color: var(--secondary-color);
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+  color: var(--secondary-color);
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+.footer-basic .devloped{
+  margin-top:15px;
+  text-align:center;
+  font-size:14px;
+  color: #000;
+}
+.footer-basic .devloped a{
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+.populated, .populates {
+padding: 20px;
+} 
+.populater{padding: 20px;}
+.copyright-link li {
+    padding: 0 4px;
+   
+}
+}
+
+@media (max-width: 425px) {
+.populated, .populates, .populater {
+padding: 20px;
+} 
+
+.footer-basic ul {
+    font-size: 14px;
+
+}
+}

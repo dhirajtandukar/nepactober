@@ -1,0 +1,411 @@
+main {
+    display: block;
+    position: relative;
+  
+}
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: #faf8f5;
+}
+.breadcrumb-nav.has-border .breadcrumb {
+    border-bottom: 1px solid #e0dede;
+}
+.breadcrumb-nav .breadcrumb {
+    font-size: 0.875em;
+    padding: 1.6rem 2rem;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    padding: 1rem 2rem;
+}
+.breadcrumb a{
+    color: #54524d;
+}
+.breadcrumb a:hover{
+    color: #ff9c28;
+}
+.breadcrumb li:not(:last-child):after {
+    position: relative;
+    content: "\f054";
+    font-family: "Font Awesome 5 Pro";
+    margin: 0 0.6em 0 0.8rem;
+    font-size: 0.857em;
+    font-weight: 700;
+    opacity: 0.5;
+    color: #54524d;
+}
+.breadcrumb li:last-child {
+    color: #222;
+}
+.account-page .page-content {
+    padding-top: 4.2rem;
+    padding: 1rem 2rem;
+}
+.tab-vertical {
+    display: flex;
+}
+.account-page .tab-vertical .nav-tabs {
+    border-right: none;
+}
+.tab-vertical .nav-tabs {
+    flex-flow: column nowrap;
+    border: 0;
+    border-right: 1px solid #ebebeb;
+}
+.nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ebebeb;
+}
+.account-page .tab-vertical .nav-item {
+    border: none;
+    border-bottom: 1px solid #e0dede;
+}
+.account-page .tab-vertical .nav-link.active {
+    color: #ff9c28;
+}
+.account-page .tab-vertical .nav-link {
+    padding: 1.2rem 0;
+    text-transform: none;
+    font-weight: 300;
+}
+.tab-vertical .nav-link {
+    position: relative;
+    padding: 1.3rem 4.5rem 1.1rem 4rem;
+    width: 100%;
+    border: 0;
+    text-align: left;
+    margin-bottom: 0;
+    display: block;
+    white-space: nowrap;
+    color: #333;
+    transition: border 0.3s,color 0.3s,background-color 0.3s;
+}
+
+.tab-vertical .nav-link:hover {
+    color: #ff9c28;
+}
+.tab-vertical .tab-content {
+    flex: 1;
+}
+.tab-content {
+    position: relative;
+}
+.tab-content {
+    background-color: transparent;
+}
+.account-page .tab-vertical .tab-pane {
+    padding: 0;
+}
+.tab-vertical .tab-pane {
+    padding: 0 2rem;
+}
+
+.account-page #orders {
+    overflow-x: auto;
+}
+
+.account-page .tab-vertical .tab-pane {
+    padding: 0;
+}
+/* .tab-content>.tab-pane:not(.active) {
+    overflow: hidden;
+    visibility: hidden;
+}
+ */
+
+
+
+.ib-border {
+    padding: 41px 10px 38px;
+    border: 1px solid #e0dede;
+    text-align: center;
+}
+.account-page .icon-box-icon {
+    color: #54524d;
+    font-size: 3.75em;
+    transition: color 0.3s;
+}
+.ib-border .icon-box-icon {
+    margin-bottom: 1.8rem;
+}
+.icon-box-icon {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 2.7em;
+    color: #ff9c28;
+    line-height: 0;
+}
+.account-page .icon-box:hover .icon-box-icon,
+ .account-page .icon-box:hover p {
+    color: #ff9c28;
+}
+.account-page .icon-box p {
+    font-size: 0.875em;
+    transition: color 0.3s;
+}
+.icon-box p {
+    margin: 0;
+    color: #222;
+}
+
+.text-primary {
+    color: #ff9c28!important;
+}
+.text-secondary {
+    color: #ff9c28!important;
+}
+
+
+/*  */
+.order-table thead th:not(:last-child) {
+    width: calc(86.55% / 4);
+}
+.order-table thead th {
+    padding: 0.7rem 1rem;
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: left;
+}
+.order-table tbody {
+    border-bottom: 1px solid #e0dede;
+}
+.order-table tbody td {
+    padding: 2.1rem 1rem;
+
+    border-top: 1px solid #e0dede;
+}
+.order-table tbody td a{
+    color: #777;
+}
+.order-table tbody td a:hover{
+    color: #ff9c28;
+}
+/*  */
+.card {
+    padding: 1rem 0;
+    border: none;
+    color: #777;
+}
+.card-body {
+    margin-top: 2rem;
+}
+.account-page .card-title {
+    border-bottom: 1px solid #e0dede;
+}
+
+.btn-primary.btn-link {
+    background-color: transparent;
+    color: #ff9c28;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.3s,border-color 0.3s,background-color 0.3s,box-shadow 0.3s;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.btn-underline:after {
+    content: "";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    width: 100%;
+    border-bottom: 1px solid;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+.btn-underline:active:after, .btn-underline:focus:after, .btn-underline:hover:after {
+    transform: scaleX(1);
+}
+.btn-primary.btn-underline:active,
+ .btn-primary.btn-underline:focus,
+  .btn-primary.btn-underline:hover {
+      
+    color: #ff9c28;
+}
+.btn-link:active, .btn-link:focus, .btn-link:hover {
+    background-color: transparent;
+}
+.btn i {
+    position: relative;
+    vertical-align: middle;
+    margin-left: 0.6rem;
+}
+
+/*  */
+.account-page #account label {
+    display: block;
+    margin: 1rem 0;
+}
+.account-page input {
+    min-height: 3.1rem;
+}
+.account-page fieldset {
+    margin: 7rem 0 2rem;
+    padding: 2rem;
+    border: 1px solid #e1e1e1;
+}
+input[type=email], input[type=number], input[type=password], input[type=reset], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 1.1em 1.22em 0.9em;
+    border: 1px solid #e0dede;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 0.875em;
+    line-height: 1.5;
+    color: #999;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    min-width: 20px;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    background-color: transparent;
+    margin: 0;
+}
+.input:-internal-autofill-selected{
+    background-color: transparent;
+}
+
+.btn-primary-1 {
+    color: #fff;
+    border-color: #ff9c28;
+
+    background-color: #ff9c28;
+    outline: 0;
+    cursor: pointer;
+    padding: 1.25em 2.78em 0.95em;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.3s,border-color 0.3s,background-color 0.3s,box-shadow 0.3s;
+    white-space: nowrap;
+}
+.btn-primary-1:active, .btn-primary-1:focus, .btn-primary-1:hover {
+    color: #fff;
+    border-color: #ffac4c;
+    background-color: #ffac4c;
+}
+
+.btn.btn-block {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.btn.btn-rounded {
+    border-radius: 8px;
+}
+.btn-secondary.btn-outline {
+    color: #ff9c28;
+    background-color: transparent;
+    border-color: #ff9c28;
+}
+.btn-secondary.btn-outline:active, .btn-secondary.btn-outline:focus, .btn-secondary.btn-outline:hover {
+    background-color: #ff9c28;
+    border-color: #ff9c28;
+    color: #fff;
+}
+.mb-8{
+margin-bottom: 8px;
+}
+
+
+
+td, th { 
+	
+	text-align: left; 
+	font-size: 18px;
+	}
+@media (max-width: 768px) {
+    .account-page .page-content {
+       
+        padding: 1rem;
+    }
+    .account-page .icon-box-icon {
+font-size: 2.5em;
+    }
+    .order-table tbody td {
+        padding: 2.1rem 0.2rem;
+      
+    }
+}
+
+@media (max-width: 425px) {
+    .account-page .tab-vertical .nav-link {
+        padding: 0.8rem 0;
+        
+    }
+      /* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr {
+         border: 1px solid #ccc;
+         margin-bottom: 20px;
+     }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50% !important; 
+	}
+
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 12px;
+		left: 12px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+   .order-table td:before {
+        position: absolute;
+        top: 33px;
+        left: 15px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        content: attr(data-column);
+        color: #000;
+        font-weight: bold;
+    }
+}

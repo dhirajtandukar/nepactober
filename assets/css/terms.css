@@ -1,0 +1,44 @@
+
+/* terms and conditions */
+.terms-section {
+    margin: 3rem 0;
+}
+
+.terms-section h2 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.terms-section h5 {
+
+    font-weight: bold;
+}
+
+.terms-section p {
+    padding: 10px 0;
+}
+
+.privacy-section {
+    margin: 3rem 0;
+}
+
+.privacy-section h2 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.privacy-section h4 {
+    font-weight: bold;
+}
+
+.cancel-section {
+    margin: 3rem 0;
+}
+
+.cancel-section h2 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+
+
